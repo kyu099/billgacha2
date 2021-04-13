@@ -1,6 +1,4 @@
 const doButton1 = document.getElementById("one");
-const result = document.getElementById("result");
-const amountsum = document.getElementById("amount");
 const dotweet = document.getElementById("tweet");
 const video = document.getElementById("video");
 
@@ -27,7 +25,6 @@ function gacha(){
 }
 
 function turnmovie(){
-    result.innerHTML = "";
     video.innerHTML = "";
     sum = 0;
     count = 1;
@@ -44,5 +41,5 @@ function tweet(){
     window.open(`https://twitter.com/intent/tweet?text=${text}`,);
 }
 
-doButton1.onclick = () => turnmovie();
+doButton1.onclick = turnmovie;
 dotweet.onclick = tweet;
