@@ -40,7 +40,7 @@ function tweet(){
     let text = "";
     text += encodeURI(`${count}回ガチャを引き合計金額${sum}円`) + "%0D%0A";
     text += "%23" + encodeURI("お札ガチャ2") + "%0D%0A";
-    text += encodeURI("https://kyu099.github.io/billgacha/") + "%0D%0A";
+    text += encodeURI("https://kyu099.github.io/billgacha2/") + "%0D%0A";
     window.open(`https://twitter.com/intent/tweet?text=${text}`,);
 }
 
