@@ -29,7 +29,7 @@ function turnmovie(){
     sum = 0;
     count = 1;
     amo = gacha();
-    video.innerHTML += `<video width="480px" height="270px" src="${amo}yen.mov" autoplay muted playsinline></video>`
+    video.innerHTML += `<video width="480px" height="270px" src="${amo}yen.mov" autoplay muted playsinline></video>`;
     sum = amo;
 }
 
