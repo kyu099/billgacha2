@@ -41,6 +41,7 @@ async function turnmovie(num){
         const billdata = gacha();
         const resultVideo = document.createElement("video");
         resultVideo.src = billdata.videoname;
+        resultVideo.playsInline = true;
         video.innerHTML = "";
         video.appendChild(resultVideo);
         await playVideo(resultVideo);
