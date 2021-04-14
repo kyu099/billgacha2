@@ -5,3 +5,17 @@ body{
 table{
     margin: auto;
 }
+
+video{
+    max-width: 100%;
+    width: 480px;
+    height: 270px;
+}
+
+img{
+    max-width: 100%;
+}
+
+button{
+    margin: 1rem;
+}
