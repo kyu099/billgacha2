@@ -45,7 +45,7 @@ async function turnmovie(num){
         video.innerHTML = "";
         video.appendChild(resultVideo);
         await playVideo(resultVideo);
-        result.innerHTML += `<img src="${billdata.imagename}"><br>`
+        result.innerHTML += `<img src="${billdata.imagename}"><br>`;
         sum += billdata.amount;
     }
     video.innerHTML = "";
